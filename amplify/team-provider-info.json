@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "vinylapp-dev-20190908142037-authRole",
+            "UnauthRoleArn": "arn:aws:iam::380569570268:role/vinylapp-dev-20190908142037-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::380569570268:role/vinylapp-dev-20190908142037-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "vinylapp-dev-20190908142037-deployment",
+            "UnauthRoleName": "vinylapp-dev-20190908142037-unauthRole",
+            "StackName": "vinylapp-dev-20190908142037",
+            "StackId": "arn:aws:cloudformation:eu-west-1:380569570268:stack/vinylapp-dev-20190908142037/af1acf60-d22a-11e9-ac46-0aae1475e00a"
+        }
+    }
+}
