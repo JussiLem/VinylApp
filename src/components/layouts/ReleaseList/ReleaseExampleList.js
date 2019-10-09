@@ -1,5 +1,5 @@
 import React from 'react'
-import Release from '../../Release'
+import ReleaseList from './ReleaseList'
 import { Card } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
 
@@ -25,6 +25,6 @@ const releases = [
 export const ReleaseExampleList = () => {
   return <Card>
     <Typography variant='h6'>Example Release Data: </Typography>
-    <Release release={releases}/>
+    <ReleaseList release={releases}/>
   </Card>
 }

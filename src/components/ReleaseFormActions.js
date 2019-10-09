@@ -5,7 +5,7 @@ const ReleaseFormActions = (callback) => {
 
   const [release, setValues] = useState({});
 
-  useEffect(() => {
+  useEffect((event) => {
     // Update the document title using the browser API
     document.title = `You clicked ${release} times`;
   });

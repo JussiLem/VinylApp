@@ -2,7 +2,7 @@ import React from 'react'
 import Table from '@material-ui/core/Table'
 import { Paper, TableBody, TableCell, TableHead, TableRow, Typography } from '@material-ui/core'
 
-function Release (props) {
+function ReleaseList (props) {
   return (
     <Paper>
       <Typography variant='subtitle1'>How the added releases would look like</Typography>
@@ -29,4 +29,4 @@ function Release (props) {
   )
 }
 
-export default Release
+export default ReleaseList

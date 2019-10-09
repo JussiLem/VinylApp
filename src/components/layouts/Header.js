@@ -14,7 +14,6 @@ import Divider from '@material-ui/core/Divider'
 import Drawer from '@material-ui/core/Drawer'
 import { ArtistForm } from './ArtistForm'
 
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -75,9 +74,10 @@ export const Header = () => {
     </div>
   );
 
+
   return (
     <div className={classes.root}>
-      <AppBar positon="static" style={{ background: 'linear-gradient(45deg, #590222 30%, #F2059F 90%)' }}>
+      <AppBar positon="static" color={'secondary'}>
         <Toolbar>
           <MenuIcon edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={toggleDrawer('left', true)}/>
             <Drawer open={state.left} onClose={toggleDrawer('left', false)}>
